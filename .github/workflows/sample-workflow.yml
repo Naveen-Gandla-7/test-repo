@@ -1,0 +1,19 @@
+name: Test workflow
+
+on:
+  pull_request:
+    types: [ closed ]
+    branches:
+      - feature
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: running sample run
+	  run: |
+	    test run,
+        complete.
+	
