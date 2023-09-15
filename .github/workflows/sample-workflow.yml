@@ -1,19 +1,15 @@
 name: Test workflow
-
 on:
-  pull_request:
-    types: [ closed ]
+  push:
     branches:
       - feature
-
 jobs:
-  Build:
+  build:
+    name: Greeting
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: running sample run
-	  run: |
-	    test run,
-            complete.
-	
+      - uses: actions/checkout@v2
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
