@@ -16,7 +16,7 @@ jobs:
           --header 'Authorization: Bearer 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' \
           --header 'Content-Type: application/json' \
           --data-raw '{
-          "name":"test-repo-3",
+          "name":"test-repo-4",
           "auto_init": true,
           "description":"created this repo through rest call",
           "gitignore_template":"Android"
