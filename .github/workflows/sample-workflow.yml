@@ -14,5 +14,5 @@ jobs:
         with:
           url: 'https://api.github.com/user/repos'
           method: 'POST'
-          bearerToken: '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'
+          bearerToken: '${{ secrets.GITHUB_TOKEN }}'
           data: '{"name":"test-repo-13","auto_init": true,"description":"created this repo through rest call","gitignore_template":"Android"}'
