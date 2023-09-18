@@ -13,7 +13,7 @@ jobs:
         run: |
           curl --location --request POST 'https://api.github.com/user/repos' \
           --header 'Accept: application/vnd.github+json' \
-          --header 'Authorization: Bearer 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' \
+          --header 'Authorization: Bearer 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' \
             --data-raw '{
                 "name":"test-repo-9",
                 "auto_init": true,
