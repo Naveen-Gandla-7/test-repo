@@ -7,8 +7,6 @@ jobs:
   build:
     name: Greeting
     runs-on: ubuntu-latest
-    permissions:
-      actions: write
     steps:
       - uses: actions/checkout@v2
       - name: Calling REST API to create a repo
