@@ -13,9 +13,9 @@ jobs:
         run: |
           curl --location --request POST 'https://api.github.com/user/repos' \
           --header 'Accept: application/vnd.github+json' \
-          --header 'Authorization: Bearer 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' \
+          --header 'Authorization: Bearer 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' \
             --data-raw '{
-                "name":"test-repo-10",
+                "name":"test-repo-13",
                 "auto_init": true,
                 "description":"created this repo through rest call",
                 "gitignore_template":"Android"
